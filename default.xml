@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="4" revision="krogoth"/>
+
+  <remote name="oe"    fetch="git://git.openembedded.org"/>
+  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+
+  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe"    revision="rocko"/>
+  <project name="poky.git"              path="sources/poky"              remote="yocto" revision="rocko"/>
+  <project name="meta-intel.git"	path="sources/meta-intel"	 remote="yocto" revision="rocko"/>
+</manifest>
