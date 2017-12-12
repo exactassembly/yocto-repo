@@ -2,8 +2,8 @@
 <manifest>
   <default sync-j="4" revision="krogoth"/>
 
-  <remote name="oe"    fetch="git://git.openembedded.org"/>
-  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+  <remote name="oe"    fetch="https://github.com/openembedded"/>
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
 
   <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe"    revision="rocko"/>
   <project name="poky.git"              path="sources/poky"              remote="yocto" revision="rocko"/>
